@@ -1,4 +1,5 @@
 # Data Cleaning Project In SQL - FIFA '21
+![TSQL](https://img.shields.io/badge/-TSQL-007ACC?style=flat&logo=Microsoft%20SQL%20Server&logoColor=white)
 
 ## Introduction
 
