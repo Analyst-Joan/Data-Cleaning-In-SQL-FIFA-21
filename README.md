@@ -4,6 +4,8 @@
 
 ![](FIFA_21_coverpg.png)
 
+[Photo Credit](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR05_U8KUYx3dqBvZBCqgHHdaqWEhSFONgQ_Q&usqp=CAU)
+
 Data is everywhere, but it's usually unfit in its raw state to be used to draw insights that solve business problems. Hence, when data is collected, it is expedient for it to be cleaned. Having a clean data increases overall productivity and allow for the highest quality of information in decision-making. 
 As one who has been taking courses on the Data Analytics learning path, I decided to carry out a Data Cleaning Project using SQL to flex my Data skills.
 Some of the objectives of this project includes:
@@ -389,7 +391,7 @@ FROM [Project_FIFA 21].[dbo].[FIFA_21 data];
 ```
 
 ### Renaming Abbreviated Column Names
-There are columns with their names abbreviated - OVA, POT, BOV, W_F, SM, A_W, D_W, IR, PAC, SHO, PAS, DRI, DEF, PHY These were renamed in full for clarity and ease of understanding. The following query was used to achieve that.
+There are columns with their names abbreviated - OVA, POT, BOV, W_F, SM, A_W, D_W, IR, PAC, SHO, PAS, DRI, DEF, PHY. These were renamed in full for clarity and ease of understanding. Goalkeeping was renamed to Goalkeeping (GK) to clarify the ‘GK’ prefix in some column names. The following query was used to achieve that.
 
 ```Tsql
 --- Rename 'OVA' to 'Overall_rating'
@@ -455,7 +457,7 @@ GO
 ```
 ![](Abbreviated_columns.PNG)
 
-_**Note:**_ _The above procedure to rename columns gives this warning - **'Caution: Changing any part of an object name could break scripts and stored procedures.'**_  This is just a warning message informing you that you have to modify any scripts or stored procedures that you may have that references the table using its previous name.
+_**Note:**_ _The above procedure to rename columns gives this warning - **'Caution: Changing any part of an object name could break scripts and stored procedures.'**_  This is just a warning message informing you that you have to modify any scripts or stored procedures that you may have that references the table using its previous name.:smile::smile::smile:
 
 ### Newline/Carriage Return Characters Checks/Resolution
 Newline/carriage return characters are invisible characters that can be introduced into data inadvertently, possibly due to manual data entry or data import from external sources. They can cause issues during processing of data, such as incorrect formatting or parsing errors. 
@@ -485,7 +487,7 @@ WHERE CHARINDEX(CHAR(10), Club) > 0 OR CHARINDEX(CHAR(13), Club) > 0;
 ![](Newline_Character.PNG)
 
 ## Conclusion
-The cleaning process was a bit challenging yet worthwhile as it led me to research and add to my SQL knowledge beyond what was learnt via courses I have taken so far, while honing my acquired data skills. The process ended with a clean dataset having **_18,979 rows and 76 Columns_**.
+The cleaning process was a bit challenging yet worthwhile as it led me to research and add to my SQL knowledge beyond what was learnt via courses I have taken so far, while honing my acquired data skills. The process ended with a clean dataset having **_18,979 rows and 76 Columns_**.:nerd_face: :sunglasses: :sunglasses:
 
 ![](Datatype_aft_cleaning.PNG)
 
