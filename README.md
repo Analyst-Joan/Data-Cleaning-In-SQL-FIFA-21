@@ -490,7 +490,7 @@ WHERE CHARINDEX(CHAR(10), Club) > 0 OR CHARINDEX(CHAR(13), Club) > 0;
 ## Conclusion
 The cleaning process was a bit challenging yet worthwhile as it led me to research and add to my SQL knowledge beyond what was learnt via courses I have taken so far, while honing my acquired data skills. The process ended with a clean dataset having **_18,979 rows and 76 Columns_**.:nerd_face: :sunglasses: :sunglasses:
 
-![](Datatype_aft_cleaning.PNG)
+![](Datatype_cleaned.PNG)
 
 
 ![](Thanks.PNG)
