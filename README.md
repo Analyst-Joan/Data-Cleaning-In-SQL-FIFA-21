@@ -456,9 +456,9 @@ GO
 EXEC sp_rename '[Project_FIFA 21].[dbo].[FIFA_21 data].Goalkeeping', 'Goalkeeping(GK)', 'COLUMN';
 GO
 ```
-![](Abbreviated_columns.PNG)
+![](Abbreviated_columns_img.PNG)
 
-_**Note:**_ _The above procedure to rename columns gives this warning - **'Caution: Changing any part of an object name could break scripts and stored procedures.'**_  This is just a warning message informing you that you have to modify any scripts or stored procedures that you may have that references the table using its previous name.:smile::smile::smile:
+_**Note:**_ _The above procedure to rename columns gives this warning - **'Caution: Changing any part of an object name could break scripts and stored procedures.'**_  This is just a warning message informing you that you have to modify any scripts or stored procedures that you may have that references the table using its previous name.:smile:
 
 ### Newline/Carriage Return Characters Checks/Resolution
 Newline/carriage return characters are invisible characters that can be introduced into data inadvertently, possibly due to manual data entry or data import from external sources. They can cause issues during processing of data, such as incorrect formatting or parsing errors. 
